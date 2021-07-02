@@ -1,4 +1,5 @@
 from django.contrib.auth import authenticate, login
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 from django.urls import reverse
 
@@ -42,7 +43,7 @@ def register(request):
 
     return render(request,'loggin.html',{'form':fm,'stu':stud})
 
-
+@login_required
 def loggin(request):
     if request.method == 'POST':
         username = request.POST.get('username')
