@@ -1,0 +1,112 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="{{st.name}}" />
+            <item index="1" class="java.lang.String" itemvalue="{{st.email}}" />
+            <item index="2" class="java.lang.String" itemvalue="{{st.password}}" />
+            <item index="3" class="java.lang.String" itemvalue="{{st.confirmpassword}}" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="img" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="Pillow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+          <option value="E122" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="oauth2project.oauth2.views.serializers" />
+          <option value="api.api.View" />
+          <option value="unicorn.views" />
+          <option value="api.api.urls.views" />
+          <option value="api.api.urls.unicorns" />
+          <option value="api.api.urls.unicorn1" />
+          <option value="api.unicorn1.views.unicorn1" />
+          <option value="api.api.views" />
+          <option value="apiproject.apiproject.views" />
+          <option value="apiproject.updates.views.update_model_detail_view.as_view" />
+          <option value="apiproject.updates.views.mixins" />
+          <option value="apiproject.mixins" />
+          <option value="apiproject.updates.views.views" />
+          <option value="apiproject.updates.views.json_example_view.as_view" />
+          <option value="object.dispatch" />
+          <option value="requests.models.json.loads" />
+          <option value="api.restconf" />
+          <option value="apiproject.apiproject.settings.restconf" />
+          <option value="status.restconf" />
+          <option value="status.api" />
+          <option value="apiproject.accounts.api.permissions.Blocklist" />
+          <option value="apiproject.accounts.api.permissions.is_authenticated" />
+          <option value="apiproject.status.views.accounts" />
+          <option value="apiproject.scripts.rest_framework_api.img_path" />
+          <option value="apiproject.status.api.serializers.UserPublicSerilizer" />
+          <option value="apiproject.status.api.serializers.accounts" />
+          <option value="apiproject.status.api.serializers.*" />
+          <option value="list.to_excel" />
+          <option value="list.text" />
+          <option value="requests.models.Response.*" />
+          <option value="list.absolute_links" />
+          <option value="int.text" />
+          <option value="int.__getitem__" />
+          <option value="scrap.frame" />
+          <option value="selenium.webdriver.firefox.webdriver.WebDriver.executeScript" />
+          <option value="scrap.vegelist" />
+          <option value="Actions" />
+          <option value="urllib.request" />
+          <option value="str.open" />
+          <option value="str.write" />
+          <option value="os.path.isfolder" />
+          <option value="speech_recognition" />
+          <option value="dashboard.dashboard.settings.ca056dd4e009039d19ac752b03d3528e" />
+          <option value="dashboard.dashboard.settings.*" />
+          <option value="main.DJANGO_SETTINGS_MODULE" />
+          <option value="dashboard.dashboard.wsgi.dj_static" />
+          <option value="restapiproject.api.url.tutorial" />
+          <option value="object.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
